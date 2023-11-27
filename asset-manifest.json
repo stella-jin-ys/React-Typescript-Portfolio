@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/stella-jin-ys/React-Typescript-Portfolio/static/css/main.30a0d97e.css",
+    "main.js": "/stella-jin-ys/React-Typescript-Portfolio/static/js/main.01eca798.js",
+    "static/media/projects.jpeg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/projects.b1f4648b7825306a73be.jpeg",
+    "static/media/react.jpeg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/react.ac5dd8cc9d05eee9b8db.jpeg",
+    "static/media/homepage.jpeg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/homepage.0572c337cfa936efb5b8.jpeg",
+    "static/media/python.jpeg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/python.9104440c7ad75356ba08.jpeg",
+    "static/media/contact.jpeg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/contact.d5e444e099123f3a6a7c.jpeg",
+    "static/media/aboutpage.jpeg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/aboutpage.aef55c68f3fee368b6fa.jpeg",
+    "static/media/aboutIllustration.svg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/aboutIllustration.b0d208db72f73bf77b7c0823e6e2d62a.svg",
+    "static/media/contactIllustration.svg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/contactIllustration.a252e79c6c870aa363a7e3cff0543042.svg",
+    "static/media/homeIlustation.svg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/homeIlustation.038f8c4be057554df8f59cdd72b50a52.svg",
+    "static/media/githubIcon.svg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/githubIcon.187c5400112844709fb09cbe8907024d.svg",
+    "static/media/linkedInIcon.svg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/linkedInIcon.73cca1c4dfd53cda3b615d403261d72d.svg",
+    "static/media/instaIcon.svg": "/stella-jin-ys/React-Typescript-Portfolio/static/media/instaIcon.c03e04637ba2bac3b23ff9873e50f967.svg",
+    "index.html": "/stella-jin-ys/React-Typescript-Portfolio/index.html",
+    "main.30a0d97e.css.map": "/stella-jin-ys/React-Typescript-Portfolio/static/css/main.30a0d97e.css.map",
+    "main.01eca798.js.map": "/stella-jin-ys/React-Typescript-Portfolio/static/js/main.01eca798.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30a0d97e.css",
+    "static/js/main.01eca798.js"
+  ]
+}
