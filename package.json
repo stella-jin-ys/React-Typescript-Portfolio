@@ -34,7 +34,7 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && gh-pages -d build"
   },
-  "homepage": "https://github.com/stella-jin-ys/React-Typescript-Portfolio",
+  "homepage": "https://stella-jin-ys/React-Typescript-Portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
