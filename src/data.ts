@@ -1,9 +1,5 @@
-import dashboard from "./assets/dashboard.jpeg";
 import ecommerce from "./assets/python.jpeg";
 import reactIcon from "./assets/react.jpeg";
-import pythonIcon from "./assets/python.jpeg";
-import nodejs from "./assets/nodejs.svg";
-
 interface Project {
   id: number;
   category: string;
