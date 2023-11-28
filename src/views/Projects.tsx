@@ -14,7 +14,7 @@ export default function Projects() {
     if (activeCat === "react") {
       return projects.filter((item) => item.category === "react");
     } else {
-      return projects.filter((item) => item.category === "python");
+      return projects.filter((item) => item.category === "next");
     }
   };
   return (
@@ -49,13 +49,13 @@ export default function Projects() {
               secondary={activeCat === "react" ? true : false}
               onClick={() => setActiveCat("react")}
             >
-              React
+              React.JS
             </Button>
             <Button
-              secondary={activeCat === "python" ? true : false}
-              onClick={() => setActiveCat("python")}
+              secondary={activeCat === "next" ? true : false}
+              onClick={() => setActiveCat("next")}
             >
-              Python
+              Next.JS
             </Button>
           </motion.div>
 
