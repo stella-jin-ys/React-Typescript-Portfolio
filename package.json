@@ -33,7 +33,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://stella-jin-ys/React-Typescript-Portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
