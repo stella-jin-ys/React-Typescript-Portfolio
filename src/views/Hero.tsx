@@ -5,6 +5,7 @@ import { fadeIn, scale } from "../utils/variants";
 import homepage from "../assets/homepage.jpeg";
 import homeIlustation from "../assets/homeIlustation.svg";
 import Button from "../components/Button";
+import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
@@ -28,11 +29,11 @@ export default function Hero() {
             viewport={{ once: false }}
             className="w-full xl:w-fit text-center xl:text-start text-4xl sm:text-6xl lg:text-8xl font-bolt text-textPrimary uppercase"
           >
-            Creative
+            Developer
             <br />
             <span className="text-secondary">
               <Typewriter
-                words={["Developer", "Designer"]}
+                words={["React.JS", "Node.JS", "Next.JS"]}
                 cursor
                 cursorStyle="_"
                 typeSpeed={250}
@@ -49,7 +50,9 @@ export default function Hero() {
             viewport={{ once: false }}
             className="my-12 flex flex-col sm:flex-row items-center gap-6 justify-center xl:justify-start"
           >
-            <Button secondary>Contact me</Button>
+            <Link to="contact">
+              <Button secondary>Contact me</Button>
+            </Link>
           </motion.div>
         </div>
 
