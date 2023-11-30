@@ -30,10 +30,21 @@ export default function About() {
           </Reveal>
           <Reveal>
             <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              omnis, facilis beatae mollitia totam exercitationem ad. Saepe ex
-              voluptas, nesciunt sequi recusandae quam earum? Libero ipsam illum
-              perferendis cum nisi.
+              My name is Stella. <br />I am a highly adaptable and disciplined
+              professional with a strong drive for learning and achieving goals.
+              Building upon my technical skills in self-taught coding and a
+              proactive approach to exploring new technologies, my experience as
+              an Account Executive and Global Sales and Marketing Coordinator
+              has developed my strong communication and coordination abilities.{" "}
+              <br />
+              The blend of soft skills and technical proficiency equips me to
+              not only independently translate business requirements into
+              technical implementations but also collaborate seamlessly with
+              stakeholders, fostering effective communication and coordination.{" "}
+              <br />
+              My commitment to continuous learning ensures that I am always
+              exploring new technologies to optimize performance, striving to
+              deliver more efficient results.
             </p>
           </Reveal>
 
@@ -45,11 +56,17 @@ export default function About() {
             viewport={{ once: false }}
             className="flex items-center justify-center xl:justify-start gap-6 "
           >
-            <SocialMediaIcon imgSrc={instaIcon} title="insta" />
-            <SocialMediaIcon imgSrc={linkedInIcon} title="linkedIn" />
-            <SocialMediaIcon imgSrc={githubIcon} title="github" />
+            <a href="https://www.linkedin.com/in/stella-jin-75694253">
+              <SocialMediaIcon imgSrc={linkedInIcon} title="linkedIn" />
+            </a>
+            <a href="https://www.github.com/stella-jin-ys">
+              <SocialMediaIcon imgSrc={githubIcon} title="github" />
+            </a>
+            <a href="https://www.instagram.com/whyungrybird/">
+              <SocialMediaIcon imgSrc={instaIcon} title="insta" />
+            </a>
           </motion.div>
-          <div className="flex-1 flex items-center justify-center">
+          <div className="flex-1 flex items-center justify-center ">
             <motion.img
               variants={scale()}
               transition={transition()}

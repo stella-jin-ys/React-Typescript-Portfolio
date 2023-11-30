@@ -6,13 +6,20 @@ import Reveal from "../components/Reveal";
 import { fadeIn } from "../utils/variants";
 import { transition } from "../utils/transition";
 import { motion } from "framer-motion";
+import SocialMediaIcon from "../components/SocialMediaIcon";
 import { projects } from "../data";
+import reactIcon from "../assets/react-svgrepo-com.svg";
+import nextIcon from "../assets/nextjs-svgrepo-com.svg";
+import tsIcon from "../assets/typescript-svgrepo.svg";
+import nodeIcon from "../assets/node-js-svgrepo-com.svg";
+import tailwindIcon from "../assets/tailwindcss-svgrepo-com.svg";
+import muiIcon from "../assets/material-ui-svgrepo-com.svg";
 
 export default function Projects() {
   const [activeCat, setActiveCat] = useState<string>("react");
   const filteredProjects = () => {
     if (activeCat === "react") {
-      return projects.filter((item) => item.category === "react");
+      return projects;
     } else {
       return projects.filter((item) => item.category === "next");
     }
@@ -32,7 +39,7 @@ export default function Projects() {
         <div className="flex-1 flex flex-col gap-4">
           <Reveal>
             <h2 className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] font-bold text-textPrimary">
-              My recent <span className="text-secondary">projects</span>
+              Recent ongoing <span className="text-secondary">projects</span>
             </h2>
           </Reveal>
 
@@ -70,6 +77,26 @@ export default function Projects() {
             {filteredProjects().map((item) => (
               <Card imgSrc={item.img} title={item.title} link={item.link} />
             ))}
+          </motion.div>
+          <Reveal>
+            <h2 className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] font-bold text-textPrimary mt-9">
+              Tech <span className="text-secondary">stacks</span>
+            </h2>
+          </Reveal>
+          <motion.div
+            variants={fadeIn("up")}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="flex items-center justify-center xl:justify-start gap-6 "
+          >
+            <SocialMediaIcon imgSrc={reactIcon} title="react" />
+            <SocialMediaIcon imgSrc={nextIcon} title="next" />
+            <SocialMediaIcon imgSrc={tsIcon} title="typescript" />
+            <SocialMediaIcon imgSrc={tailwindIcon} title="next" />
+            <SocialMediaIcon imgSrc={muiIcon} title="typescript" />
+            <SocialMediaIcon imgSrc={nodeIcon} title="react" />
           </motion.div>
         </div>
       </div>
