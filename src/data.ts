@@ -23,7 +23,7 @@ export const projects: Project[] = [
     category: "next",
     img: car,
     title: "Car Rental website",
-    link: "https://car-rent-website.netlify.app/",
+    link: "https://stella-car-rent-website.netlify.app/",
   },
   {
     id: 2,
