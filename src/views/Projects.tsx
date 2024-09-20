@@ -91,12 +91,12 @@ export default function Projects() {
             viewport={{ once: false }}
             className="flex items-center justify-center xl:justify-start gap-6 "
           >
-            <SocialMediaIcon imgSrc={reactIcon} title="react" />
-            <SocialMediaIcon imgSrc={nextIcon} title="next" />
-            <SocialMediaIcon imgSrc={tsIcon} title="typescript" />
-            <SocialMediaIcon imgSrc={tailwindIcon} title="next" />
-            <SocialMediaIcon imgSrc={muiIcon} title="typescript" />
-            <SocialMediaIcon imgSrc={nodeIcon} title="react" />
+            <SocialMediaIcon imgSrc={reactIcon} title="React.js" />
+            <SocialMediaIcon imgSrc={nextIcon} title="Next.js" />
+            <SocialMediaIcon imgSrc={tsIcon} title="Typescript" />
+            <SocialMediaIcon imgSrc={tailwindIcon} title="Tailwind" />
+            <SocialMediaIcon imgSrc={muiIcon} title="Material UI" />
+            <SocialMediaIcon imgSrc={nodeIcon} title="Node.js" />
           </motion.div>
         </div>
       </div>
